@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Shakelock</string>
+	<string name="Market">マーケット</string>
+	<string name="OK">OK</string>
+
+	<string name="UnLock">UnLock</string>
+	<string name="Lock">Lock</string>
+	<string name="InfoButton">情報</string>
+	<string name="SettingButton">設定</string>
+	<string name="Cancel">キャンセル</string>
+	<string name="Back">戻る</string>
+
+	<string name="KEYGUARD_BOX_TITLE">キーガード解除</string>
+	<string name="KEYGUARD_BOX_SUMMARY">画面を点灯させたときにキーガードも解除する
+	</string>
+	<string name="AUTO_RUN_BOX_TITLE">自動起動</string>
+	<string name="AUTO_RUN_BOX_SUMMARY">端末を起動したときに自動的に起動する</string>
+	<string name="SHAKE_DIALOG_TITLE">シェイクレベル</string>
+	<string name="SHAKE_DIALOG_SUMMARY">端末を振ったと認識する強さ</string>
+	<string name="TIMEOUT_DIALOG_TITLE">自動消灯時間</string>
+	<string name="TIMEOUT_DIALOG_SUMMARY">画面を点灯させた後に自動的に消灯するまでの時間
+	</string>
+	<string name="USE_TIME_DIS_DIALOG_TITLE">使用時間設定無効</string>
+	<string name="USE_TIME_DIS_DIALOG_SUMMARY">自動的にShakelokeをOn/Offさせない</string>
+	<string name="TIME_CLOCK_DIALOG_TITLE">使用時間</string>
+	<string name="TIME_CLOCK_DIALOG_SUMMARY">Shakelockを使用する時間</string>
+	<string-array name="TimeString">
+		<item>5秒</item>
+		<item>10秒</item>
+		<item>30秒</item>
+		<item>1分</item>
+		<item>5分</item>
+		<item>10分</item>
+		<item>自動消灯無し</item>
+	</string-array>
+
+	<string-array name="InfoDialog">
+		<item>Version 2.1
+		\n・日付変更時のバグ修正
+		\n・その他バグ修正
+		\n</item>
+		<item>Version 2.0 
+		\n・使用時間設定追加
+		\n・デザイン変更
+		\n</item>
+		<item>Version 1.0
+		\n・リリースバージョン</item>
+	</string-array>
+</resources>

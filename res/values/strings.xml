@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Shakelock</string>
+	<string name="Market">Market</string>
+	<string name="OK">OK</string>
+
+	<string name="UnLock">UnLock</string>
+	<string name="Lock">Lock</string>
+	<string name="InfoButton">Information</string>
+	<string name="SettingButton">Settings</string>
+	<string name="Cancel">Cancel</string>
+	<string name="Back">Back</string>
+
+	<string name="KEYGUARD_BOX_TITLE">KeyGuard Disabled</string>
+	<string name="KEYGUARD_BOX_SUMMARY">UnLock the key guard when screen was lit</string>
+	<string name="AUTO_RUN_BOX_TITLE">Auto Start</string>
+	<string name="AUTO_RUN_BOX_SUMMARY">Start up automatically when restart your phone
+	</string>
+	<string name="SHAKE_DIALOG_TITLE">Shake Level</string>
+	<string name="SHAKE_DIALOG_SUMMARY">Strength recognized that
+		terminal was shaken</string>
+
+	<string name="TIMEOUT_DIALOG_TITLE">Screen timeout</string>
+	<string name="TIMEOUT_DIALOG_SUMMARY">Time until automatically
+		turning it off after screen is lit</string>
+	<string name="USE_TIME_DIS_DIALOG_TITLE">Turn on time setting</string>
+	<string name="USE_TIME_DIS_DIALOG_SUMMARY">Using invalid time setting</string>
+	<string name="TIME_CLOCK_DIALOG_TITLE">Use Time</string>
+	<string name="TIME_CLOCK_DIALOG_SUMMARY">Using time Shakelock</string>
+	<string-array name="TimeString">
+		<item>5 seconds</item>
+		<item>10 seconds</item>
+		<item>30 seconds</item>
+		<item>1 minute</item>
+		<item>5 minutes</item>
+		<item>10 minutes</item>
+		<item>Never timeout</item>
+	</string-array>
+	<integer-array name="TimeValue">
+		<item>5000</item>
+		<item>10000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>300000</item>
+		<item>600000</item>
+		<item>0</item>
+	</integer-array>
+	<string-array name="TimeClockString">
+		<item>0:00 ~ 1:00</item>
+		<item>1:00 ~ 2:00</item>
+		<item>2:00 ~ 3:00</item>
+		<item>3:00 ~ 4:00</item>
+		<item>4:00 ~ 5:00</item>
+		<item>5:00 ~ 6:00</item>
+		<item>6:00 ~ 7:00</item>
+		<item>7:00 ~ 8:00</item>
+		<item>8:00 ~ 9:00</item>
+		<item>9:00 ~ 10:00</item>
+		<item>10:00 ~ 11:00</item>
+		<item>11:00 ~ 12:00</item>
+		<item>12:00 ~ 13:00</item>
+		<item>13:00 ~ 14:00</item>
+		<item>14:00 ~ 15:00</item>
+		<item>15:00 ~ 16:00</item>
+		<item>16:00 ~ 17:00</item>
+		<item>17:00 ~ 18:00</item>
+		<item>18:00 ~ 19:00</item>
+		<item>19:00 ~ 20:00</item>
+		<item>20:00 ~ 21:00</item>
+		<item>21:00 ~ 22:00</item>
+		<item>22:00 ~ 23:00</item>
+		<item>23:00 ~ 24:00</item>
+	</string-array>
+	<integer-array name="TimeClockValue">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+	</integer-array>
+	<string-array name="ShakeString">
+		<item>Level 1</item>
+		<item>Level 2</item>
+		<item>Level 3</item>
+		<item>Level 4</item>
+		<item>Level 5</item>
+	</string-array>
+	<integer-array name="ShakeValue">
+		<item>5</item>
+		<item>10</item>
+		<item>15</item>
+		<item>20</item>
+		<item>25</item>
+	</integer-array>
+
+	<string-array name="InfoDialog">
+		<item>Version 2.1
+		\n- bug fixes
+		\n</item>
+		<item>Version 2.0
+		\n- New features
+		\n- Change Design
+		\n</item>
+		<item>Version 1.0
+		\n- release version</item>
+	</string-array>
+</resources>

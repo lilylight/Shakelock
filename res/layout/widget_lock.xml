@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@layout/widget_lock"
+>
+	<ImageButton
+		android:layout_width="fill_parent"
+		android:id="@+id/LockImageButton"
+		android:layout_height="fill_parent"
+		android:paddingTop="50dip"
+		android:src="@drawable/btn_toggle_off" />
+
+	<LinearLayout
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:id="@+id/LockLinearLayout"
+	>
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/LockTextView"
+			android:gravity="center"
+			android:paddingTop="30dip"
+			android:textColor="@android:color/black"
+			android:textSize="16dip"
+			android:text="@string/UnLock" />
+	</LinearLayout>
+</FrameLayout>
